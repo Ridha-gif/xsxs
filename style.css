@@ -1,0 +1,40 @@
+h1{
+    font-size:22px;
+}
+h3,#mar{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:21px;
+}
+#p1{
+    color: red;
+    font-family: monospace;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+body{
+    background-color: lightcyan;
+}
+#camera{
+    border-style:dashed;
+    border-width: 5px;
+    height:200px;
+    transition: width 2s, height 2s, transform 2s;
+
+
+
+}#result{
+    height:300px;
+    width: 350px;
+    border-style:dashed;
+    border-width: 5px;
+}
+
+
+
+
+#camera:hover{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
